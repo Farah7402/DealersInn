@@ -1,0 +1,128 @@
+*{margin:0;
+	padding:0;}
+
+	body {
+	font-family: montserrat, arial, verdana;
+}
+
+#msform {
+	
+	
+	text-align: center;
+	position: relative;
+}
+
+#msform fieldset {
+
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 50px 20px;
+	box-sizing: border-box;
+	width: 60%;
+	margin: 0 25%;
+	margin-top: 3%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+
+#msform input, #msform textarea
+{
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	width: 60%;
+    box-sizing: border-box;
+	font-family: montserrat;
+	color: black;
+	font-size: 18px;
+	margin-top: 3%;
+}
+
+
+.checkbox-container{display:inline-flex;}
+
+#msform label
+{
+   color: black; 
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    box-sizing: border-box;
+	font-family: montserrat;
+	/*width: 20%;*/
+}
+
+
+
+.regby
+{
+   
+   padding: 15px;
+   border: 2px solid black;
+	border-radius: 5px;
+   margin-bottom: 2px;
+   width: 60%;
+}
+
+.sale
+{
+	display: inline-flex;
+	width: 30%;
+}
+
+.saleyes
+{
+	display: inline-flex;
+	width: 50%;
+}
+
+
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #ffce40;
+	font-weight: bold;
+	color: #563d7c;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #563d7c;
+}
+
+.subhead {
+    background-color: #ffce40;
+    border-radius: 3px;
+    clear: both;
+    color: #563d7c;
+    float: left;
+    text-align: left;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    padding: 8px 0;
+    text-indent: 9px;
+    text-transform: uppercase;
+    width: 99.6%;
+    font-weight: bold;
+    font-size:18px;
+}
+.ros {
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px -2px #A7A7A7, -2px 2px 4px -2px #A7A7A7;
+    //border: ;
+    -moz-box-shadow: 1px 2px 4px -2px #A7A7A7,-1px 2px 4px -2px #A7A7A7;
+    -webkit-box-shadow: 2px 2px 4px -2px #A7A7A7, -2px 2px 4px -2px #A7A7A7;
+    -o-box-shadow: 1px 2px 4px -2px #A7A7A7,-1px 2px 4px -2px #A7A7A7;
+    overflow: hidden;
+}
+.font_s {
+    font-family: MyriadProSemibold;
+}
+
